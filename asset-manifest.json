@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/softy_pinko/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/softy_pinko/static/js/main.3f372e77.chunk.js",
+    "main.js.map": "/softy_pinko/static/js/main.3f372e77.chunk.js.map",
+    "runtime-main.js": "/softy_pinko/static/js/runtime-main.8b0953e9.js",
+    "runtime-main.js.map": "/softy_pinko/static/js/runtime-main.8b0953e9.js.map",
+    "static/js/2.2249abd0.chunk.js": "/softy_pinko/static/js/2.2249abd0.chunk.js",
+    "static/js/2.2249abd0.chunk.js.map": "/softy_pinko/static/js/2.2249abd0.chunk.js.map",
+    "static/js/3.6260719b.chunk.js": "/softy_pinko/static/js/3.6260719b.chunk.js",
+    "static/js/3.6260719b.chunk.js.map": "/softy_pinko/static/js/3.6260719b.chunk.js.map",
+    "index.html": "/softy_pinko/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/softy_pinko/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.2249abd0.chunk.js.LICENSE.txt": "/softy_pinko/static/js/2.2249abd0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/softy_pinko/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b0953e9.js",
+    "static/js/2.2249abd0.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.3f372e77.chunk.js"
+  ]
+}

@@ -1,0 +1,93 @@
+.pricing{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #f2f2fe;
+}
+.pricing .container > .title{
+  font-weight: bolder;
+  color: #555555;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.pricing .container > .desc{
+  color: #777777;
+  font-size: 0.8rem;
+  width: 40%;
+  line-height: 1.7;
+  margin: auto;
+}
+.pricing .pricing-box{
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.pricing .pricing-box .title{
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.25px;
+  color: #1e1e1e;
+  line-height: 40px;
+}
+.pricing .pricing-box .price-header{
+  background-color: #8261ee;
+  color: #ffffff;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.pricing .pricing-box .price-header.active{
+  background-color: #ff589e;
+}
+.pricing .pricing-box .price-header .price{
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.pricing .pricing-box .price-header .month{
+  font-size: .8rem;
+}
+.pricing .pricing-box .list li{
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #777777;
+}
+.pricing .pricing-box button{
+  background-color: #8261ee;
+  border-color: #8261ee;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 0.4rem 1rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+}
+.pricing .pricing-box button:hover{
+  background-color: #ff589e;
+  border-color: #ff589e;
+}
+@media (max-width: 992px) { 
+  .pricing .container > .desc{
+    width: 80%;
+  }
+}

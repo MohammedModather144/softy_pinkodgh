@@ -1,0 +1,160 @@
+{
+  "features" : [
+      {
+          "id" : 1,
+          "image": "./images/featured-item-01.png",
+          "title": "Modern Strategy",
+          "desc": "Customize anything in this template to fit your website needs"
+      },
+      {
+          "id" : 2,
+          "image": "./images/featured-item-01.png",
+          "title": "Best Relationship",
+          "desc": "Contact us immediately if you have a question in mind"
+      },
+      {
+          "id" : 3,
+          "image": "./images/featured-item-01.png",
+          "title": "Ultimate Marketing",
+          "desc": "You just need to tell your friends about our free templates"
+      }
+  ],
+  "works" : [
+    {
+        "id" : 1,
+        "image": "./images/work-process-item-01.png",
+        "title": "Get Ideas",
+        "desc": "Godard pabst prism fam cliche."
+    },
+    {
+        "id" : 2,
+        "image": "./images/work-process-item-01.png",
+        "title": "Sketch Up",
+        "desc": "Godard pabst prism fam cliche."
+    },
+    {
+        "id" : 3,
+        "image": "./images/work-process-item-01.png",
+        "title": "Discuss",
+        "desc": "Godard pabst prism fam cliche."
+    },
+    {
+        "id" : 4,
+        "image": "./images/work-process-item-01.png",
+        "title": "Revise",
+        "desc": "Godard pabst prism fam cliche."
+    },
+    {
+        "id" : 5,
+        "image": "./images/work-process-item-01.png",
+        "title": "Approve",
+        "desc": "Godard pabst prism fam cliche."
+    },
+    {
+        "id" : 6,
+        "image": "./images/work-process-item-01.png",
+        "title": "Launch",
+        "desc": "Godard pabst prism fam cliche."
+    }
+],
+    "WhatSays" : [
+    {
+        "id" : 1,
+        "image": "./images/testimonial-icon.png",
+        "image_user": "https://place-hold.it/100x100",
+        "desc": "Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.",
+        "user_name":"Catherine Soft",
+        "job":"Managing Director"
+    },
+    {
+        "id" : 2,
+        "image": "./images/testimonial-icon.png",
+        "image_user": "https://place-hold.it/100x100",
+        "desc": "Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.",
+        "user_name":"Kelvin Wood",
+        "job":"Digital Marketer"
+    },
+    {
+        "id" : 3,
+        "image": "./images/testimonial-icon.png",
+        "image_user": "https://place-hold.it/100x100",
+        "desc": "YQuisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.",
+        "user_name":"David Martin",
+        "job":"Website Manager"
+    }
+  ],
+  "blog" : [
+    {
+        "id" : 1,
+        "image": "./images/blog-item-01.png",
+        "title": "Vivamus ac vehicula dui",
+        "desc": "Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue."
+    },
+    {
+        "id" : 2,
+        "image": "./images/blog-item-02.png",
+        "title": "Phasellus convallis augue",
+        "desc": "Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis."
+    },
+    {
+        "id" : 3,
+        "image": "./images/blog-item-03.png",
+        "title": "Nam gravida purus non",
+        "desc": "Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu."
+    }
+],
+  "portfolio" : [
+      {
+          "id":1,
+          "image": "./images/Portfolio/portfolio-img1.jpg"
+      },
+      {
+          "id":2,
+          "image": "./images/Portfolio/portfolio-img2.jpg"
+      },
+      {
+          "id":3,
+          "image": "./images/Portfolio/portfolio-img3.jpg"
+      },
+      {
+          "id":4,
+          "image": "./images/Portfolio/portfolio-img4.jpg"
+      },
+      {
+          "id":5,
+          "image": "./images/Portfolio/portfolio-img5.jpg"
+      },
+      {
+          "id":6,
+          "image": "./images/Portfolio/portfolio-img6.jpg"
+      },
+      {
+          "id":7,
+          "image": "./images/Portfolio/portfolio-img4.jpg"
+      },
+      {
+          "id":8,
+          "image": "./images/Portfolio/portfolio-img8.jpg"
+      }
+  ] ,
+  "social" : [
+      {
+          "id": 1,
+          "icon" : "icon fa fa-facebook fa-lg",
+          "title" : "Follow Me on",
+          "body" : "Social Facebook"
+      },
+      {
+          "id": 2,
+          "icon" : "icon fa fa-twitter fa-lg",
+          "title" : "Tweet Me on",
+          "body" : "Social twitter"
+      },
+      {
+          "id": 3,
+          "icon" : "icon fa fa-pinterest fa-lg",
+          "title" : "Pin Me on",
+          "body" : "Social Pinterest"
+      }
+  ] 
+}

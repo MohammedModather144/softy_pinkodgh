@@ -1,0 +1,54 @@
+.work{
+  background-size: cover;
+  padding-top: 3.5rem;
+  background-attachment: fixed;
+  padding-bottom: 3.5rem;
+}
+.work > .title{
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.work  > .desc{
+ color: #ffffff;
+ font-size: 0.8rem;
+ width: 40%;
+ line-height: 1.7;
+ margin: auto;
+}
+.work .work-box{
+  margin-top: 4rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.work .work-box .img{
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  width: 30px;
+  height: 30px;
+}
+.work .work-box .img img{
+  width: 100%;
+}
+.work .work-box > .title{
+  font-size: 1rem;
+}
+.work .work-box > .desc{
+  font-size: 0.8rem;
+}
+@media (max-width: 992px) { 
+  .work  > .desc{
+    width: 80%;
+    margin-bottom: 3rem;
+   }
+   .work .work-box{
+     margin-top: 1rem;
+   }
+}

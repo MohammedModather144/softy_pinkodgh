@@ -1,0 +1,74 @@
+.what-say{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+} 
+.what-say .container > .title{
+  font-size: 1.7rem;
+}
+.what-say .container > .desc{
+  font-size: .8rem;
+  line-height: 1.7;
+  color: #777777;
+  width: 45%;
+  margin: auto;
+}
+.what-say .say-box{
+  margin-top: 4rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.what-say .say-box > .desc{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  font-size: 0.8rem;
+  color: #777777;
+}
+.what-say .say-box .user-info .img {
+  width: 60px;
+  height: 60px;
+}
+.what-say .say-box .user-info .user-img img{
+  width: 100%;
+}
+.what-say .say-box .user-info .user-name{
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  text-align: left;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.what-say .say-box .user-info .job{
+  font-size: 0.8rem;
+  margin-top: 0.1rem;
+  color: #ff589e;
+  letter-spacing: 0.25px;
+  text-align: left;
+  font-weight: normal;
+}
+@media (max-width: 992px) { 
+  .what-say .container > .desc{
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+  .what-say .say-box .user-info .img {
+    width: 30px;
+    height: 30px;
+  }
+  .what-say .say-box .user-info .user-img img{
+    width:80%;
+  }
+  .what-say .say-box{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+

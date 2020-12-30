@@ -1,0 +1,36 @@
+.about{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.about .title{
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+}
+.about .desc{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #777777;
+  line-height: 1.8;
+}
+hr{
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+@media (max-width: 992px) { 
+  .about .title{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+  }
+  .about .desc{
+    margin-top: .9rem;
+    font-size: 1rem;
+    color: #777777;
+    line-height: 1.8;
+  }
+}

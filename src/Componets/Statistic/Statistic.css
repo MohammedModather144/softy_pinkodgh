@@ -1,0 +1,58 @@
+.statistic{
+  text-align: center;
+  padding-top: 8rem ;
+  padding-bottom: 8rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.statistic .statistic-box.bg{
+  position: relative;
+}
+.col-md-3 .bg::after{
+  position: absolute;
+  content: "";
+  background: url(../../images/circle-dec.png) center center no-repeat;
+  left: -10px;
+  height: 32px;
+  width: 70%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.statistic .statistic-box .title{
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.statistic .statistic-box .desc{
+  color: #ffffff;
+  font-size: 1rem;
+}
+@media (max-width: 992px) { 
+  .statistic{
+    text-align: center;
+    padding-top: 3rem ;
+    padding-bottom: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  .col-md-3:nth-of-type(3) .bg::after{
+    position: absolute;
+    content: "";
+    background: none;
+    left: -10px;
+    height: 32px;
+    width: 70%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .col-md-3:nth-of-type(1) .bg,
+  .col-md-3:nth-of-type(2) .bg{
+    margin-bottom: 4rem;
+  }
+}

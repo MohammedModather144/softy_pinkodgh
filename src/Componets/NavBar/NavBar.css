@@ -1,0 +1,103 @@
+.all-header{
+  position: relative;
+  background-position: bottom;
+  height: 100vh;
+  padding-top: 15px;
+ background-size: cover;
+}
+.all-header .nav-header{
+  padding: 10px 0px;
+  background-color: #fff;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.all-header .nav-header .logo img{
+  margin-top: 7px ;
+  margin-bottom: 7px;
+  width: 50%;
+  margin-left: 25px;
+}
+.all-header .nav-header .linkes {
+  margin-bottom: 0px !important ;
+}
+.all-header .nav-header .linkes li{
+  margin-top: 7px ;
+  margin-bottom: 7px ;
+  display: inline-block;
+}
+.all-header .nav-header .linkes li a{
+  padding: 10px 15px;
+  color: #1e1e1e;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.7s ease-in-out;
+  -webkit-transition: color 0.7s ease-in-out;
+  -moz-transition: color 0.7s ease-in-out;
+  -ms-transition: color 0.7s ease-in-out;
+  -o-transition: color 0.7s ease-in-out;
+}
+.all-header .nav-header .linkes li a.active,
+.all-header .nav-header .linkes li a:hover{
+  color: #ff589e;
+}
+.main-section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -3rem;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+.main-section .title{
+  color: #fff;
+  font-size: 2rem;
+}
+.main-section .desc{
+  margin-top: 1rem;
+  line-height: 1.7;
+  color: #fff;
+}
+.main-section button{
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+  background-color: #ff589e;
+  padding: 8px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.main-section button:hover{
+  color: #fff;
+  opacity: 0.8;
+}
+@media (max-width: 992px) { 
+  .nav-header {
+    display: none;
+  }
+  .main-section{
+  margin-top: -7rem;
+  }
+  .main-section .title{
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  .main-section .desc{
+    color: #fff;
+    font-size: .8rem;
+  }
+}
+@media (min-width: 992px) { 
+  .menu-nav {
+    display: none;
+  }
+}

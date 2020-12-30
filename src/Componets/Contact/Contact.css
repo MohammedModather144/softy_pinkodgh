@@ -1,0 +1,59 @@
+.contact{
+  /* background-color: #f2f2fe; */
+  padding-bottom: 2rem;
+}
+.contact .container > .title{
+  font-weight: bolder;
+  color: #555555;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.contact .container > .desc{
+  color: #777777;
+  font-size: 0.8rem;
+  width: 40%;
+  line-height: 1.7;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.contact .contact-left .title{
+  font-weight: bolder;
+  text-align: left;
+  color: #555555;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.contact .contact-left .desc{
+  color: #777777;
+  text-align: left;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+.contact .contact-right button{
+  margin-top: 2rem;
+  background-color: #8261ee;
+  padding: .5rem 2rem;
+  border-color: #8261ee;
+  font-size: .8rem;
+  border-radius: .5rem;
+  color: #ffffff;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  transition: all .7s ease-in-out;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+}
+.contact .contact-right button:hover{
+ background-color: #ff589e;
+ border-color: #ff589e;
+}
+@media (max-width: 992px) { 
+  .contact .container > .desc{
+    width: 80%;
+  }
+}
